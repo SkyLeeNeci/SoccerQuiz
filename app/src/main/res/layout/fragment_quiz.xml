@@ -34,13 +34,15 @@
 
           <ImageView
               android:id="@+id/imageView3"
-              android:layout_width="50dp"
-              android:layout_height="50dp"
+              android:layout_width="32dp"
+              android:layout_height="23dp"
               android:src="@drawable/ic_ball"
               app:layout_constraintBottom_toBottomOf="@+id/imageView2"
               app:layout_constraintEnd_toEndOf="@+id/imageView2"
+              app:layout_constraintHorizontal_bias="0.498"
               app:layout_constraintStart_toStartOf="@+id/imageView2"
-              app:layout_constraintTop_toTopOf="parent" />
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintVertical_bias="0.291" />
 
           <TextView
               android:id="@+id/textView"
@@ -121,6 +123,7 @@
               app:layout_constraintEnd_toEndOf="parent"
               app:layout_constraintStart_toStartOf="parent"
               app:layout_constraintTop_toBottomOf="@+id/imageView3"
+              app:layout_constraintVertical_bias="0.792"
               tools:text="Question" />
 
           <androidx.appcompat.widget.AppCompatButton

@@ -81,7 +81,7 @@ class QuizFragment : Fragment() {
 
                     } else{
 
-                        binding.imageView3.animate().translationXBy(10000f)
+                        binding.imageView3.animate().translationXBy(1000f)
                             .rotation(3600f)
                             .duration = 3000
 
@@ -94,7 +94,7 @@ class QuizFragment : Fragment() {
                     }
                 }else{
 
-                    binding.imageView3.animate().translationXBy(500f)
+                    binding.imageView3.animate().translationXBy(1000f)
                         .rotation(3600f)
                         .duration = 3000
 
